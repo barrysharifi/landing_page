@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  ul{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color:#1f2937 ;
+    width: 100%;
+    min-height: 40px;
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+  }
+  .right-links{
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  .wrapper-2{
+    color: white;
+    padding-left: 150px;
+    padding-top: 80px;
+    margin-bottom:90px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-1{
+    background-color: #3882f6;
+    border-radius:4px;
+    padding-right: 16px;
+    padding-left:16px;
+    padding-top:4px;
+    padding-bottom:4px;
+    color: white;
+    border: #3882f6;
+    margin-top: 4px;
+  }
+  .title-page{
+    font-size: 24px;
+    color: #f9faf8;
+  }
+  .pic{
+    height: 180px;
+    width:350px;
+    flex-shrink: 0;
+  }
+  .second-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+  }
+  .odin-picture{
+    height: 120px;
+    width: 120px
+  }
+  .wrapper-3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:70px;
+    margin-top:20px;
+  }
+  .odin-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .img-with-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .wrapper-4{
+    background-color:#e5e7eb;
+    padding: 80px;
+  }
+  .quote{
+    display: flex;
+    font-size: 30px;
+    color: #1f2937;
+    justify-content: center;
+  }
+  .author{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:130px
+  }
+  .wrapper-5{
+    display:flex;
+    justify-content: center;
+  }
+  .blue-box{
+    background-color:#3882f6;
+    color:white;
+    display: flex;
+    padding: 20px;
+    margin:60px;
+    width:800px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:4px;
+  }
+  .action{
+    margin-left:55px;
+  }
+  .button-div{
+    padding-right:60px;
+  }
+  .last-click{
+    background-color:#3882f6;
+    color:white;
+    border: 2px solid;
+    padding-right:16px;
+    padding-left:16px;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius:4px;
+  }
+  .wrapper-6{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+    font-size: 12px;
+  }
